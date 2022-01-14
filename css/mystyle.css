@@ -1,0 +1,196 @@
+
+.header{
+    background-color: rgb(255, 253, 253);
+    height: 75px;
+}
+
+.header li{
+    display: inline-block;
+    /* line-height: 5; */
+}
+
+.header .middlelist{
+    margin-left: 33%;
+}
+
+.header .righticon{
+    margin-left: 15%;
+}
+
+input[type=text]{
+    width: 215px;
+    border-radius: 20px;
+    height: 35px;
+    border: 1px solid skyblue;
+}
+
+.header ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+    padding-left: 20px;
+  }
+
+.header .listitem{
+    margin-left: 5px;  
+    width: 85px;
+    padding-left: 10px;
+
+}
+
+
+
+.header img{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: -40px;
+}
+
+.listitem h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.listitem h3:hover{
+    color: skyblue;
+}
+
+
+ .listitemicon{
+    color: rgb(5, 5, 5);
+    margin-right: 10px;
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid skyblue;
+    height: 40px;
+    width: 85px;
+}
+
+button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+/* ---------------------------------------------------------1st section------------------------------- */
+
+.container-fluid .fs{
+    position: absolute;
+    color: white;
+    top: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    left: 16%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color: #dcf2fad9;
+}
+
+.container-fluid .fs:hover{
+    color: rgb(168, 168, 235);
+    text-shadow: 5px 5px 5px rgb(130, 231, 245);
+}
+
+
+/* ---------------------------------------------------2nd section-------------------------------------- */
+
+.col-lg-4{
+    /* border: 2px solid red; */
+    height: 430px;
+    width: 435px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+    box-shadow: 2px 3px 4px  skyblue;
+}
+  
+#ROW{
+    margin-left: 55px;
+}
+
+.stars .fa{
+    margin-left: 10px;
+    font-size: 13px;
+    color: red;
+    margin-left: 0px;
+}
+
+.stars ul{
+    margin-bottom: -15px;
+}
+
+.stars ul li{
+    display: inline-block;
+}
+
+.price h4,h5{
+    margin-bottom: -15px;
+    font-size: 15px;
+}
+
+.price h5{
+    color: black;
+}
+
+.price ul li{
+    display: inline-block;
+}
+
+.info ul{
+    list-style-type: square;
+    margin-left: 10px;
+    
+}
+
+.btn button{
+      background-color: black;
+      color: white;
+      width: 145px;
+      height: 38px;
+      border-radius: 25px;
+      border: 0px;
+      margin-top: -10px;
+      margin-left: 20px;
+}
+
+.btn button:hover{
+    background-color: skyblue;
+    color: white;
+}
+
+
+.col-lg-4 img{
+    height: 235px;
+    width: 270px;
+    margin-left: 60px;
+
+}
+
+.cimg{
+    background-color: white;
+    width: 435px;
+    margin-left: -15px;
+}
+
+
+.secondage h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 45px;
+}
+
+
+
+
+.last h5{
+    text-align: center;
+    color: grey;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
